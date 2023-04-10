@@ -8,9 +8,9 @@ const person = {
 const team = players;
 
 const team1 = [];
-players.foreach((item) => {
-	team1.push(item);
-});
+for(let i = 0; i < players.length; i++){
+	team1.push(players[i]);
+}
 
 const cap1 = {};
 let keys = Object.keys(person);
