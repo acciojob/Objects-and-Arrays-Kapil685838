@@ -14,7 +14,7 @@ for(let i = 0; i < players.length; i++){
 
 const cap1 = {};
 let keys = Object.keys(person);
-keys.foreach((key) => {
+keys.forEach((key) => {
 	cap1.key = person.key;
 });
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
